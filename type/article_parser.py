@@ -8,6 +8,7 @@ GallaryType = Literal['mgallery/board', 'board']
 
 class Article(NamedTuple):
     num: str
+    subject: str
     title: str
     reply: str
     nickname: str
